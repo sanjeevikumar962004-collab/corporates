@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" height="80" width="300">
+  <defs>
+    <style>
+      .text {
+        font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 60px;
+        fill: #1A1A1A;
+      }
+      .dot {
+        fill: #32CD32;
+      }
+    </style>
+  </defs>
+  <text x="10" y="60" class="text">stackly<tspan class="dot">.</tspan></text>
+</svg>

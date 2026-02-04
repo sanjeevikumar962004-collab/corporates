@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - Stackly</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        .error-page {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: radial-gradient(circle at center, rgba(50, 205, 50, 0.05) 0%, #FAFAFA 70%);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .error-content {
+            z-index: 2;
+            padding: 40px;
+            max-width: 600px;
+        }
+
+        .error-code {
+            font-size: clamp(6rem, 15vw, 12rem);
+            font-weight: 900;
+            color: rgba(0, 0, 0, 0.03);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .error-icon {
+            font-size: 4rem;
+            color: var(--accent);
+            margin-bottom: 20px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .error-title {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: var(--text-dark);
+        }
+
+        .error-text {
+            color: var(--text-gray);
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="error-page">
+        <div class="error-code">404</div>
+        <div class="error-content">
+            <div class="error-icon"><ion-icon name="construct-outline"></ion-icon></div>
+            <h1 class="error-title">Page Under Construction</h1>
+            <p class="error-text">The page you are looking for is currently being built or does not exist. We are
+                working hard to bring you the best experience.</p>
+            <a href="index.html" class="btn btn-primary">Return Home <ion-icon name="home-outline"></ion-icon></a>
+        </div>
+    </section>
+
+</body>
+
+</html>

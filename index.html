@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stackly - Modern Corporate Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ionicons for Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo-link"><img src="stackly_logo.svg" alt="Stackly" class="logo-img"></a>
+            <nav>
+                <ul class="nav-menu">
+                    <div class="menu-header-mobile">
+                        <img src="stackly_logo.svg" alt="Stackly" class="logo-img">
+                        <div class="close-menu"><ion-icon name="close-outline"></ion-icon></div>
+                    </div>
+                    <li><a href="error.html" class="nav-link">Home</a></li>
+                    <li><a href="error.html" class="nav-link">Services</a></li>
+                    <li><a href="error.html" class="nav-link">About</a></li>
+                    <li><a href="error.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="error.html" class="nav-link">Blog</a></li>
+                    <li><a href="error.html" class="nav-link">Contact</a></li>
+                    <li class="mobile-only"><a href="error.html" class="nav-link">Login</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <a href="error.html" class="btn-login-header">Login</a>
+                <div class="search-icon"><ion-icon name="search-outline"></ion-icon></div>
+                <div class="hamburger"><ion-icon name="menu-outline"></ion-icon></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                alt="Skyscraper">
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="container">
+            <div class="hero-content reveal">
+                <span class="section-subtitle">Innovate & Grow</span>
+                <h1>We provide solutions to <br>grow your business.</h1>
+                <p>A big opportunity for your business growth. We deliver premium strategies for top-tier companies.</p>
+                <div class="btn-group">
+                    <a href="error.html" class="btn btn-primary">Get Consultation <ion-icon
+                            name="arrow-forward"></ion-icon></a>
+                    <a href="error.html" class="btn btn-outline-white">Our Work</a>
+                </div>
+            </div>
+        </div>
+        <!-- Floating Play Button -->
+        <div class="play-btn-wrapper floating">
+            <div class="play-btn">
+                <ion-icon name="play"></ion-icon>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container stats-grid">
+            <div class="stat-item reveal">
+                <h3 data-target="250">0</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat-item reveal reveal-delay-1">
+                <h3 data-target="120">0</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div class="stat-item reveal reveal-delay-2">
+                <h3 data-target="15">0</h3>
+                <p>Awards Won</p>
+            </div>
+            <div class="stat-item reveal reveal-delay-3">
+                <h3 data-target="24">0</h3>
+                <p>Team Members</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon"><ion-icon name="construct-outline"></ion-icon></div>
+                    <h3>We Build Success</h3>
+                    <p>Comprehensive strategies to build your business from the ground up with solid foundations.</p>
+                </div>
+                <div class="service-card reveal reveal-delay-1">
+                    <div class="service-icon"><ion-icon name="trending-up-outline"></ion-icon></div>
+                    <h3>Financial Advices</h3>
+                    <p>Expert financial planning and investment advice to maximize your corporate revenue.</p>
+                </div>
+                <div class="service-card reveal reveal-delay-2">
+                    <div class="service-icon"><ion-icon name="pie-chart-outline"></ion-icon></div>
+                    <h3>Tax Strategy</h3>
+                    <p>Optimized tax solutions ensuring compliance while minimizing liabilities for your firm.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-grid">
+            <div class="about-img reveal">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                    alt="Our Team">
+            </div>
+            <div class="about-content reveal reveal-delay-1">
+                <span class="section-subtitle">Who We Are</span>
+                <h2 class="section-title">We are leaders in the consulting market.</h2>
+                <p style="margin-bottom: 30px;">Stackly has been at the forefront of business innovation for over a
+                    decade. We combine data-driven insights with creative problem-solving.</p>
+                <ul class="about-list">
+                    <li>Professional Team of Experts</li>
+                    <li>Global Business Network</li>
+                    <li>Award Winning Strategies</li>
+                </ul>
+                <a href="error.html" class="btn btn-outline" style="border-radius: 50px; padding: 12px 30px;">View About
+                    Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section (Accordion) -->
+    <section id="portfolio" class="portfolio">
+        <div class="portfolio-accordion">
+            <div class="portfolio-item active">
+                <div class="portfolio-bg"
+                    style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');">
+                </div>
+                <span class="portfolio-num">01</span>
+                <div class="portfolio-content">
+                    <h3>Urban Development</h3>
+                    <p style="color: rgba(255,255,255,0.7);">Building the future connected cities.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-bg"
+                    style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');">
+                </div>
+                <span class="portfolio-num">02</span>
+                <div class="portfolio-content">
+                    <h3>Corporate Banking</h3>
+                    <p style="color: rgba(255,255,255,0.7);">Secure financial infrastructure.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-bg"
+                    style="background-image: url('https://images.unsplash.com/photo-1554469384-e58fac16e23a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');">
+                </div>
+                <span class="portfolio-num">03</span>
+                <div class="portfolio-content">
+                    <h3>Tech Integration</h3>
+                    <p style="color: rgba(255,255,255,0.7);">Seamless digital transformation.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-bg"
+                    style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');">
+                </div>
+                <span class="portfolio-num">04</span>
+                <div class="portfolio-content">
+                    <h3>Global Logistics</h3>
+                    <p style="color: rgba(255,255,255,0.7);">Moving the world forward.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 60px;">
+                <span class="section-subtitle">Testimonials</span>
+                <h2 class="section-title">What our clients say</h2>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card reveal">
+                    <div class="rating">★★★★★</div>
+                    <p>"Stackly transformed our business model completely. Their insights were invaluable to our growth
+                        structure."</p>
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client" class="client-avatar">
+                        <div>
+                            <h4>James Ross</h4>
+                            <span style="font-size: 0.8rem; color: #888;">CEO, FinCorp</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal reveal-delay-1">
+                    <div class="rating">★★★★★</div>
+                    <p>"The team is incredibly professional and dedicated. They delivered results way beyond our
+                        expectations."</p>
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client" class="client-avatar">
+                        <div>
+                            <h4>Sarah Lee</h4>
+                            <span style="font-size: 0.8rem; color: #888;">Marketing Dir, TechFlow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal reveal-delay-2">
+                    <div class="rating">★★★★★</div>
+                    <p>"Highly recommended for any company looking to scale up. Fantastic service and support."</p>
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Client" class="client-avatar">
+                        <div>
+                            <h4>Michael Chen</h4>
+                            <span style="font-size: 0.8rem; color: #888;">Owner, LogisticX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 60px;">
+                <span class="section-subtitle">Our Plans</span>
+                <h2 class="section-title">Choose Your Plan</h2>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card reveal">
+                    <h3>Basic</h3>
+                    <p class="price">$29<span>/mo</span></p>
+                    <ul class="features-list">
+                        <li>Business Analysis</li>
+                        <li>24/7 Support</li>
+                        <li>Customer Management</li>
+                    </ul>
+                    <a href="error.html" class="btn btn-outline" style="margin-top: 30px;">Choose Plan</a>
+                </div>
+                <div class="pricing-card featured reveal reveal-delay-1">
+                    <h3>Standard</h3>
+                    <p class="price">$49<span>/mo</span></p>
+                    <ul class="features-list">
+                        <li>Business Analysis</li>
+                        <li>24/7 Support</li>
+                        <li>Customer Management</li>
+                        <li>Financial Advice</li>
+                    </ul>
+                    <a href="error.html" class="btn btn-primary" style="margin-top: 30px;">Choose Plan</a>
+                </div>
+                <div class="pricing-card reveal reveal-delay-2">
+                    <h3>Pro</h3>
+                    <p class="price">$69<span>/mo</span></p>
+                    <ul class="features-list">
+                        <li>Business Analysis</li>
+                        <li>24/7 Support</li>
+                        <li>Customer Management</li>
+                        <li>SEO Optimization</li>
+                    </ul>
+                    <a href="error.html" class="btn btn-outline" style="margin-top: 30px;">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section (Premium) -->
+    <section class="cta reveal">
+        <div class="cta-bg-gradient"></div>
+        <div class="container cta-content">
+            <h2>Ready to grow your business?</h2>
+            <p>Join over 1,000+ top-tier companies that trust Stackly for their consulting and strategic needs. Let's
+                build something exceptional.</p>
+            <a href="error.html" class="btn btn-accent" style="padding: 18px 45px; border-radius: 50px;">Get Started
+                Today
+                <ion-icon name="arrow-forward-outline"></ion-icon></a>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 60px;">
+                <span class="section-subtitle">Recent News</span>
+                <h2 class="section-title">Latest Insights</h2>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card reveal">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                            alt="Business Meeting">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-cat">Business</span>
+                            <span class="blog-date">Oct 12, 2025</span>
+                        </div>
+                        <h3>How to improve your business flow with AI integration</h3>
+                        <a href="error.html" class="read-more-link">Read Article <ion-icon
+                                name="arrow-forward"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="blog-card reveal reveal-delay-1">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                            alt="Financial Planning">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-cat">Finance</span>
+                            <span class="blog-date">Oct 15, 2025</span>
+                        </div>
+                        <h3>Financial strategies for 2026: What you need to know</h3>
+                        <a href="error.html" class="read-more-link">Read Article <ion-icon
+                                name="arrow-forward"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="blog-card reveal reveal-delay-2">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                            alt="Office Technology">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-cat">Technology</span>
+                            <span class="blog-date">Oct 20, 2025</span>
+                        </div>
+                        <h3>The future of remote work technology in the workplace</h3>
+                        <a href="error.html" class="read-more-link">Read Article <ion-icon
+                                name="arrow-forward"></ion-icon></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section (Marquee) -->
+    <section class="clients">
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <span class="client-logo">Liva</span>
+                <span class="client-logo">Kanba</span>
+                <span class="client-logo">Amara</span>
+                <span class="client-logo">Aven</span>
+                <span class="client-logo">Hexa</span>
+                <span class="client-logo">Circle</span>
+                <span class="client-logo">Treva</span>
+                <!-- Duplicate for seamless loop -->
+                <span class="client-logo">Liva</span>
+                <span class="client-logo">Kanba</span>
+                <span class="client-logo">Amara</span>
+                <span class="client-logo">Aven</span>
+                <span class="client-logo">Hexa</span>
+                <span class="client-logo">Circle</span>
+                <span class="client-logo">Treva</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Premium) -->
+    <footer id="contact" class="footer">
+        <div class="footer-watermark">STACKLY</div>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-brand">
+                    <a href="index.html" class="logo-link"><img src="stackly_logo.svg" alt="Stackly" class="logo-img"
+                            style="margin-bottom: 20px;"></a>
+                    <p>We are a global consulting firm delivering premium strategies, innovation, and growth for
+                        top-tier companies worldwide.</p>
+                    <div class="footer-socials">
+                        <a href="error.html"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="error.html"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="error.html"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="error.html"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="error.html">About Us</a></li>
+                        <li><a href="error.html">Our Services</a></li>
+                        <li><a href="error.html">Portfolio</a></li>
+                        <li><a href="error.html">Latest News</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="error.html">Help Center</a></li>
+                        <li><a href="error.html">Terms of Service</a></li>
+                        <li><a href="error.html">Privacy Policy</a></li>
+                        <li><a href="error.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p style="font-size: 0.9rem; margin-bottom: 15px;">Subscribe for the latest updates.</p>
+                    <form class="newsletter-form" action="error.html">
+                        <input type="email" placeholder="Email Address">
+                        <button type="submit"><ion-icon name="paper-plane-outline"></ion-icon></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Stackly Consulting. All rights reserved.</p>
+                <div class="footer-links" style="display: flex; gap: 20px;">
+                    <a href="error.html">Privacy</a>
+                    <a href="error.html">Terms</a>
+                    <a href="error.html">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <div class="back-to-top">
+        <ion-icon name="arrow-up"></ion-icon>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
