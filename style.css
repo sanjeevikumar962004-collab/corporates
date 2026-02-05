@@ -229,20 +229,54 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+/* --- Optimized Logo Sizes --- */
 
-.logo {
-  font-size: 1.8rem;
-  font-weight: 800;
-  letter-spacing: -0.05em;
-  display: flex;
-  align-items: center;
-  gap: 5px;
+/* Standard Header Logo */
+.logo-img {
+    height: 32px; /* Reduced from 40px for a sleeker look */
+    width: auto;
+    display: block;
+    filter: brightness(0) invert(1); 
+    transition: var(--transition-fast);
 }
 
-.logo-img {
-  height: 40px;
-  width: auto;
-  display: block;
+.header.scrolled .logo-img {
+    filter: none;
+    height: 28px; /* Slightly smaller when scrolled for more screen real estate */
+}
+
+/* Mobile Menu Logo */
+.logo-img-mobile {
+    height: 26px; 
+    filter: none;
+}
+/* Main Footer Logo */
+.footer-main-logo {
+    height: 30px; /* Smaller footprint in the footer column */
+    filter: brightness(0) invert(1);
+    margin-bottom: 20px;
+}
+
+/* Reduced Watermark Size */
+.footer-logo-watermark {
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    width: 20%; /* Reduced from 35% to be more subtle */
+    max-width: 250px; /* Ensures it never gets too massive */
+    opacity: 0.03; /* Lowered opacity for a true "ghost" effect */
+    pointer-events: none;
+    z-index: 0;
+    filter: brightness(0) invert(1);
+}
+
+/* Adjust watermark for mobile tablets */
+@media (max-width: 992px) {
+    .footer-logo-watermark {
+        width: 150px;
+        bottom: 10px;
+        right: 10px;
+    }
 }
 
 .nav-menu {
